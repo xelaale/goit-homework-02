@@ -1,14 +1,20 @@
-body{font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     background: #FFF;
     font-size: 16px;
     color: #434455;
-    
-
 }
-a {text-decoration: none;}
-ul {list-style-type: none;}
 
-.visually-hidden {position: absolute;
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -17,151 +23,227 @@ ul {list-style-type: none;}
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 
-.logo {color: #4D5AE5;
-    font-family: Raleway;
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 44px;}
+}
 
-.accent {color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        width: 71px; 
-        text-decoration: none;}
+.accent {
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
-.nav {color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;}
-
-.nav:active {color: #404BBF;
+.nav {
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-.address {color: #434455;
+.nav:active {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav:focus {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.address {
+    color: #434455;
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-.address:active{color: #404BBF;
+.address:hover {
+    color: #404BBF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;}
-    
-.first-section{background: #2E2F42;}
-    
-.hero-title {color: #FFF;
-    text-align: center;
+    text-decoration: none;
+}
+
+.address:focus {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.first-section {
+    background: #2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
-.button {color: #FFF;
-    font-family: Roboto;
+.button {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;}
+    cursor: pointer;
+}
 
-.button:hover {color: #FFF;
-    font-family: Roboto;
+.button:hover {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;}
+    cursor: pointer;
+}
 
-.hero-section {color: #2E2F42;
+.button:focus {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.hero-section {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.hero-list {
+    background: #FFFFFF;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.team {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02;}
-.text {line-height: 1.5;
-    letter-spacing: 0.02em;}
-
-.team-section{background: #F4F4FD;}
-
-.team {color: #2E2F42;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
 .position {
-    text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
-.titles{color: #2E2F42;
-    text-align: center;
+.titles {
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+}
 
-.portfolio-title {color: #2E2F42;
+.portfolio-title {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
-.footer-text{color: #F4F4FD;
+.footer-text {
+    color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
-.footer {background: #2E2F42;}
+.footer {
+    background: #2E2F42;
+}
 
 .footer-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 44px;
+
 }
 
-.logo-accent {color: #F4F4FD;
+.logo-accent {
+    color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 71px;
     text-decoration: none;
 }
