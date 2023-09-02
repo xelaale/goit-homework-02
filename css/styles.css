@@ -58,26 +58,7 @@ ul {
     text-decoration: none;
 }
 
-.nav:active {
-    color: #404BBF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
-.nav:hover {
-    color: #404BBF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
+.nav:hover,
 .nav:focus {
     color: #404BBF;
     font-family: Roboto;
@@ -98,18 +79,8 @@ ul {
     text-decoration: none;
 }
 
-.address:hover {
-    color: #404BBF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
-.address:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
     font-family: Roboto;
     font-size: 16px;
@@ -135,6 +106,7 @@ ul {
 .button {
     color: #FFF;
     font-family: "Roboto", sans-serif;
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -169,7 +141,7 @@ ul {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -202,10 +174,15 @@ ul {
 .titles {
     color: #2E2F42;
     font-size: 36px;
+    text-align: center;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.team-list {
+    background-color: #FFFFFF
 }
 
 .portfolio-title {
