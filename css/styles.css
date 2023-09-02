@@ -50,7 +50,7 @@ ul {
 
 .nav {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -61,7 +61,7 @@ ul {
 .nav:hover,
 .nav:focus {
     color: #404BBF;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -70,8 +70,12 @@ ul {
 }
 
 .address {
+    font-style: normal;
+}
+
+.adress-link {
     color: #434455;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -79,16 +83,12 @@ ul {
     text-decoration: none;
 }
 
-.address-link:hover,
+.address-link:hover {
+    color: #404BBF;
+}
+
 .address-link:focus {
     color: #404BBF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .first-section {
@@ -98,6 +98,7 @@ ul {
 .hero-title {
     color: #FFF;
     font-size: 56px;
+    text-align: center;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
